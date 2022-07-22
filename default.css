@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -77,10 +82,17 @@ section{
 }
 
 .category_title{
-    text-align: center;
+    align-items: center;
     color:rgb(23, 82, 12);
     font-size: 2rem;
     font-weight:700;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.category_title a {
+    text-decoration: none;
 }
 
 .category{
