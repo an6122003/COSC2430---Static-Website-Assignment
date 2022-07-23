@@ -79,7 +79,7 @@ section{
 }
 
 .container{
-	width: 1300px;
+	width: 90vw;
 	margin: 10px auto;
 	padding: 5px;
     background-color: var(--SecondaryColour);
@@ -269,14 +269,14 @@ footer{
 }
 
 @media screen and (max-width: 960px) { 
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        background-color: antiquewhite;
-        position: sticky;
-        top: 0;
-        height: 100px;
+    .category img{
+        width: 250px;
+        height: 350px;
+    }
+
+    .header_navbar{
+        list-style: none;
+        display: block;
+        margin-bottom: 0;
     }
 }
