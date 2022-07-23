@@ -166,13 +166,16 @@ footer{
   }
 
 .left_detail{
-    grid-template-areas:left_detail ;
-    margin-left: auto;
-    margin-right: 0;
+    margin: 0 auto;
 }
 
-.mid_detail{
-    grid-template-areas: mid_detail;
+.mid_detail ul{
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 0;
+    padding-right: 10px;
+   
 }
 
 .mid_detail ul{
@@ -180,7 +183,6 @@ footer{
 }
 
 .right_detail{
-    grid-template-areas: right_detail;
     margin: auto 0;
     text-align: center;
 }
