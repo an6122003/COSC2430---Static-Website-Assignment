@@ -19,7 +19,7 @@ header{
     background-color: antiquewhite;
     position: sticky;
     top: 0;
-    height: 100px;
+    height: 120px;
 }
 
 .header_logo {
@@ -124,6 +124,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    flex-wrap: wrap;
 }
 
 .footer_logo{
@@ -139,6 +140,7 @@ footer{
 .footer_navbar{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #breadcrumb{
@@ -256,16 +258,14 @@ footer{
     margin: 0 auto; 
     border:1px solid white;
 	border-radius: 10px;
+    
 }
 
 .input-area{
-    width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
+    width: 80%;
+	padding: 10px;
 	border:1px solid black;
 	border-radius: 5px;
-	
 }
 
 @media screen and (max-width: 960px) { 
@@ -304,5 +304,24 @@ footer{
     .left_detail{
         grid-template-areas:left_detail ;
         margin: 0 auto;
+    }
+
+    .form{
+        padding: 20px;	
+        background-color: lightblue;
+        max-width: 600px;
+        margin: 0 auto; 
+        border:1px solid white;
+        border-radius: 10px;
+    }
+    
+    .input-area{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border:1px solid black;
+        border-radius: 5px;
+        
     }
 }
