@@ -2,6 +2,7 @@
 URL to website: https://an6122003.github.io/COSC2430---Static-Website-Assignment/
 
 Citation
+
 logo.png: https://www.pinterest.com/pin/559994534886748136/
 book1.jpg: https://www.google.com/search?q=book+cover&tbm=isch&ved=2ahUKEwiTyLahjI_5AhXzS_UHHR33CWsQ2-cCegQIABAA&oq=book+cover&gs_lcp=CgNpbWcQAzIECCMQJzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgYIABAeEAdQhw1Yhw1g7Q1oAHAAeACAAVaIAZ4BkgEBMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=zvTbYpOpBfOX1e8Pne6n2AY&bih=874&biw=1745&rlz=1C1GCEU_viVN942VN942#imgrc=kj0piXi1i8BJwM
 book2.jpg: https://www.amazon.in/Book-Cover-Design-Formula-Self-published-ebook/dp/B07DQ7XLQ2
