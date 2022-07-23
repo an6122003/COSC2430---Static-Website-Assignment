@@ -24,10 +24,12 @@ header{
 
 .header_logo {
     transition:0.5s;
+    text-align: center;
 }
 .header_logo img{
-    max-width:100%;
+    max-width:50%;
     transition:0.5s;
+    
 }
 
 .header_logo:hover{
@@ -39,18 +41,19 @@ header{
     text-align: center;
     text-decoration: none;
     color:rgb(23, 82, 12);
-    font-size: 3rem;
+    font-size: 1.3rem;
     font-weight:700;
     transition:0.5s;
 }
 
 .header_title:hover{
-    font-size: 3.2rem;
+    font-size: 1.4rem;
 }
 
 .header_navbar{
     list-style: none;
     display: flex;
+    margin-bottom: 0;
 }
 
 
@@ -70,14 +73,17 @@ header{
 
 section{
     background-color: var(--MainColour);
-	border-bottom: 0px solid var(--BorderColour);
 	overflow: auto;
+    padding: 0px;
+    margin: 0px;
 }
 
 .container{
-	width: 100%;
-	margin: 0 auto;
+	width: 1300px;
+	margin: 10px auto;
+	padding: 5px;
     background-color: var(--SecondaryColour);
+    border-radius: 5px;
 }
 
 .category_title{
@@ -119,9 +125,14 @@ footer{
     height: 100px;
 }
 
+.footer_logo{
+    text-align: center;
+}
+
 .footer_logo img{
-    max-width:100%;
+    max-width:50%;
     transition:0.5s;
+    object-fit: contain;
 }
 
 .footer_navbar{
@@ -204,7 +215,7 @@ footer{
 }
 
 .book_description{
-    display: block;
+    
     margin:100px;
     padding: 10px 100px;
 }
@@ -220,4 +231,52 @@ footer{
 
 #book_description_content{
     font-size: 1rem;
+}
+
+.contact_title{
+    align-items: center;
+    color:rgb(23, 82, 12);
+    font-size: 2rem;
+    font-weight:700;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.contact_form{
+    margin: 100px;
+    margin-top: 50px;
+}
+
+.form{
+    padding: 20px;	
+    background-color: lightblue;
+    max-width: 600px;
+    margin: 0 auto; 
+    border:1px solid white;
+	border-radius: 10px;
+}
+
+.input-area{
+    width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border:1px solid black;
+	border-radius: 5px;
+	
+}
+
+@media screen and (max-width: 960px) { 
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: antiquewhite;
+        position: sticky;
+        top: 0;
+        height: 100px;
+    }
 }

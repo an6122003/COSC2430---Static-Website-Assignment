@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
+    <title>Contact us</title>
+</head>
+<body>
+    <header>
+        <div class="header_logo" style="flex: 1;"><img src="logo.png" alt="logo"></div>
+
+        <div class="header_title" style="flex: 2;"><h1>Nguyen Quoc An Bookstore</h1></div>
+
+		<ul class="header_navbar" style="flex: 1;">
+			<li class="navbar_link"><a href="index.html">Home</a></li>
+			<li class="navbar_link"><a href="category.html">Category 1</a></li>
+			<li class="navbar_link"><a href="category.html">Category 2</a></li>
+		</ul>
+    </header>
+
+    <main>
+    <!-- Form section -->
+    <section>
+        <div class="container">
+            <div class="contact_title">Contact us</div>
+            <div class="contact_form">
+                <form class="form" method="POST" enctype="multipart/form-data">
+                    <label for="contact_purpose">Contact purpose</label>
+                    <select name="contact_purpose" class="input-area" id="contact_purpose" required>
+                        <option value="sell">I want to sell books</option>
+                        <option value="buy">I want to buy books</option>
+                    </select>
+
+                    <label for="name">Your Name</label>
+                    <input class="input-area" type="text" name="name" id="name" required>
+    
+                    <label for="email">Your Email</label>
+                    <input class="input-area" type="email" name="email" id="email" required>
+    
+                    <label for="phone">Your Phone</label>
+                    <input class="input-area" type="tel" name="phone" id="phone" required>
+    
+                    <label for="contact_method">How can we contact you</label><br>
+                    <label>By email</label>
+                    <input class="input-area" type="checkbox" name="contact_method" id="contact_method">
+
+                    <label>By phone</label>
+                    <input class="input-area" type="checkbox" name="contact_method" id="contact_method">
+                    
+                    <label for="receive_news">Do you want to receive our weekly newsletter</label>
+                    <label for="html">Yes</label>
+                    <input type="radio" id="yes" name="receive_news" value="Yes" id="receive_news" checked>
+                    <label for="css">No</label>
+                    <input type="radio" id="no" name="receive_news" value="No"><br>
+                    
+                    <label>Note</label>
+				    <textarea class="input-area" name="note"> </textarea>
+
+                    <button class="submit-button" type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    </main>
+    <footer>
+        <div class="footer_logo" style="flex: 1;"><img src="logo.png" alt="logo"></div>
+        
+        <div style="flex: 1;">&copy; Copyright 2022, NguyenQuocAnBookStore. All rights reserved</div>
+        
+        <ul class="footer_navbar" style="flex: 2;">
+			<li class="navbar_link"><a href="#">About Us</a></li>
+			<li class="navbar_link"><a href="#">Privacy Policy</a></li>
+			<li class="navbar_link"><a href="#">Terms</a></li>
+            <li class="navbar_link"><a href="#">Copyright</a></li>
+            <li class="navbar_link"><a href="contact_page.html">Contact Us</a></li>
+		</ul>
+    </footer>
+</body>
+</html>
