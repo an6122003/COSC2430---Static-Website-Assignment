@@ -77,7 +77,6 @@ section{
 .container{
 	width: 100%;
 	margin: 0 auto;
-	padding: 20px;
     background-color: var(--SecondaryColour);
 }
 
@@ -104,8 +103,12 @@ section{
     height: 450px;
 }
 
-.category p{
+.category h3{
     text-align: center;
+}
+
+.category a{
+    text-decoration: none;
 }
 
 
@@ -113,6 +116,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
 
 .footer_logo img{
@@ -125,5 +129,95 @@ footer{
     display: flex;
 }
 
+#breadcrumb{
+    margin: 0 auto;
+    text-align: center;
+}
+.breadcrumb{
+    list-style: none;
+    padding: 10px;
+}
 
+.breadcrumb li{
+    display: inline;
+}
 
+.breadcrumb li a{
+    text-decoration: none;
+}
+
+.breadcrumb li+li:before {
+    padding: 10px;
+    content: "/";
+  }
+
+.left_detail{
+    grid-template-areas:left_detail ;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.mid_detail{
+    grid-template-areas: mid_detail;
+}
+
+.mid_detail ul{
+    list-style: none;
+}
+
+.right_detail{
+    grid-template-areas: right_detail;
+    margin: auto 0;
+    text-align: center;
+}
+
+.book_detail{
+    display: grid;
+    grid-template-columns: 50% 15% 35%;
+    grid-template-areas:"left_detail mid_detail right_detail"  ;
+    justify-content: center;
+    margin: 100px;
+    align-items: center;
+    padding:  20px 0px;
+    
+}
+
+.book_detail img{
+    width: 100px;
+    height: 160px;
+}
+
+#book_detail_big{
+    width: 300px;
+    height: 500px;
+}
+
+#buy_button{
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.book_description{
+    display: block;
+    margin:100px;
+    padding: 10px 100px;
+}
+
+#book_description_title{
+    font-size: 2rem;
+}
+
+#book_description_subtitle{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#book_description_content{
+    font-size: 1rem;
+}
