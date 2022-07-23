@@ -103,6 +103,7 @@ section{
 .category{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .category img{
     width: 300px;
@@ -183,24 +184,23 @@ footer{
 }
 
 .book_detail{
-    display: grid;
-    grid-template-columns: 50% 15% 35%;
-    grid-template-areas:"left_detail mid_detail right_detail"  ;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
     margin: 100px;
     align-items: center;
     padding:  20px 0px;
     
+    
 }
 
 .book_detail img{
-    width: 100px;
-    height: 160px;
+    width: 8vw;
+    height: 19vh;
 }
 
 #book_detail_big{
-    width: 300px;
-    height: 500px;
+    width: 30vw;
+    height: 80vh;
 }
 
 #buy_button{
@@ -278,5 +278,31 @@ footer{
         list-style: none;
         display: block;
         margin-bottom: 0;
+    }
+
+    .book_detail{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr
+        grid-template-areas:"left_detail mid_detail right_detail"  ;
+        justify-content: center;
+        margin: 100px;
+        align-items: center;
+        padding:  20px 0px;
+        
+    }
+
+    .mid_detail ul{
+        list-style: none;
+        display: flex;
+    }
+
+    .mid_detail ul li{
+        margin: 20px;
+        text-align: center;
+    }
+
+    .left_detail{
+        grid-template-areas:left_detail ;
+        margin: 0 auto;
     }
 }
